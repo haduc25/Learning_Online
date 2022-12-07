@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<!--size for monile-->
+
+	<title>Hello World | Just Testing ! </title>
+	<link rel="stylesheet" href="style100.css"><!--href="style.css" //add file style.css-->
+	<!--Font-->
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	<!--Font for Star(Rate)-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style ="background-color: powderblue">
+	<!--header-->
+	<div class = "header">
+		<!--container-->
+		<div class="container">
+			<!--image logo-->
+			<div class="navbar">
+				<div class="logo">
+					<a href="index.html"><img src="images-main/lg.jpeg" width ="200px"></a>
+				</div>
+				<!--Button-->
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="check-out.html">Cart</a></li>
+						<li><a href="sign-in.html">Account</a></li>
+					</ul>
+				</nav>
+				<!--logo Cart-->
+				<a href="check-out.html"><img src="images-main/cart.png" width="35px" height="35px"></a>
+				<!--logo Menu-->
+
+				<img src="images-main/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+
+							<!--------------Image San Pham(Featured Products-Sản phẩm nổi bật)-------------->
+			<!--small-container-->
+			<div class="small-container">
+				<!--Select-->
+				<div class="row row-2">
+					<h2>Tất Cả Sản Phẩm </h2>
+					<select>
+						<option>Sắp xếp</option>
+						<option>Nổi bật nhất</option>
+						<option>Bán chạy nhất</option>
+						<option>Giá cao đến thấp</option>
+						<option>Giá thấp đến cao</option>
+					</select>
+				</div>
+					<!--Begin Row-->
+					<div class="row">
+						<!--Begin Products-->
+						<!--Image1-->
+						<div class="col-4">
+							<img src="images-main/horror/book-6.jpg">
+							<!--Name Product-->
+							<h4>BOLD - Peter Diamandis</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>75.000đ</p>
+						</div>
+
+						<!--Image2-->
+						<div class="col-4">
+							<img src="images-main/horror/book-7.jpg">
+							<!--Name Product-->
+							<h4>COME CLOSER - Sara Gran</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>55.000đ</p>
+						</div>
+
+						<!--Image3-->
+						<div class="col-4">
+							<img src="images-main/horror/book-9.jpg">
+							<!--Name Product-->
+							<h4>CHÍ PHÈO - Nam Cao</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i> <!--Star O-->
+								</div>
+							<!--Price Products-->
+							<p>45.000đ</p>
+						</div>
+
+						<!--Image4-->
+						<div class="col-4">
+							<img src="images-main/fun/book-18.jpg">
+							<!--Name Product-->
+							<h4>DANSE MACABRE -Stephen King</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>120.000đ</p>
+						</div>
+						<!--End Product-->
+					</div>
+					<!--End Row-->
+
+					<!------------------------------------------Latest Products------------------------------------------>
+				<!--Begin Row2-->
+				<div class="row">
+					<!--Begin Product2-->
+						<!--Image5-->
+						<div class="col-4">
+							<img src="images-main/fun/book-19.jpg">
+							<!--Name Product-->
+							<h4>We Are Never Meeting in Real Life - Samantha Irby</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>45.000đ</p>
+						</div>
+
+						<!--Image6-->
+						<div class="col-4">
+							<img src="images-main/fun/book-20.jpg">
+							<!--Name Product-->
+							<h4>TẮT ĐÈN - Ngô Tất Tố</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>85.000đ</p>
+						</div>
+
+						<!--Image7-->
+						<div class="col-4">
+							<img src="images-main/tech/book-30.jpg">
+							<!--Name Product-->
+							<h4>THE INEVITABLE - Kevin Kelly</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>25.000đ</p>
+						</div>
+
+						<!--Image8-->
+						<div class="col-4">
+							<img src="images-main/fun/book-16.jpg">
+							<!--Name Product-->
+							<h4>VỢ NHẶT - Kim Lân</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>90.000đ</p>
+						<!--End Products2-->
+					</div>
+					<!--End Row2-->
+					<!-------------------------------------------------------------------------------------------------------------------->
+					<!--Begin Row3-->
+				<div class="row">
+					<!--Begin Product3-->
+						<!--Image9-->
+						<div class="col-4">
+							<img src="images-main/fun/book-17.jpg">
+							<!--Name Product-->
+							<h4>DANSE MACABRE - Stephen King</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i> <!--Star O-->
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>220.000đ</p>
+						</div>
+
+						<!--Image10-->
+						<div class="col-4">
+							<img src="images-main/horror/book-4.jpg">
+							<!--Name Product-->
+							<h4>THE FOURTH AGE - Byron</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>180.000đ</p>
+						</div>
+
+						<!--Image11-->
+						<div class="col-4">
+							<img src="images-main/horror/book-5.jpg">
+							<!--Name Product-->
+							<h4>ELON MUSK - Ashlee Vance</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>65.000đ</p>
+						</div>
+
+						<!--Image12-->
+						<div class="col-4">
+							<img src="images-main/fun/book-18.jpg">
+							<!--Name Product-->
+							<h4>THE PASSAGE - Justin Cronin</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>35.000đ</p>
+						<!--End Products3-->
+					</div>
+					<!--End Row3-->
+										<!--Button next pages-->
+						<div class="page-btn">
+							<a href="products.html"><span>1</span></a>
+							<a href="products1.html"><span>2</span></a>
+							<a href="products2.html"><span>3</span></a>
+							<span>4</span>
+							<span>&#8594;</span>
+						</div>
+			</div>
+			<!--End Header-->
+					<!------------------------------------------Offer(Phục Vụ)------------------------------------------>
+			<div class="offer">
+				<div class="small-container">
+					<div class="row">
+						<!--Image MiBand-->
+						<div class="col-2">
+							<img src="images-main/book-full-set.jpg" class="offer-img">
+						</div>
+						<!--Thong tin sp-->
+						<div class="col-2">
+							<p>(Giảm ngay -70.000đ khi mua trọn bộ)</p> <!--tinh nang high ligh-->
+							<p class="price-sp">(450.000đ)-> chỉ còn 380.000đ</p>
+							<h1>Harry Potter Boxed Set: The Complete Collection</h1> <!--Ten sp-->
+							<!--Small-->	
+							<small>
+								Tác giả: J. K. Rowling &#160; Nhà xuất bản:Bloomsbury Childrens<br><!--gioi thieu nhanh sp-->
+							</small>
+								<!--Button Buy-->
+								<a href="check-out.html" class="btn">Mua Ngay &#8594;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+					<!------------------------------------------brands------------------------------------------>
+					<div class="brands">
+						<div class="small-container">
+							<div class="row">
+								<div class="col-5">
+									<img src="images-main/brands/logo-godrej.png">
+								</div>
+								<div class="col-5">
+									<img src="images-main/brands/logo-oppo.png">
+								</div>
+								<div class="col-5">
+									<img src="images-main/brands/logo-coca-cola.png">
+								</div>
+								<div class="col-5">
+									<img src="images-main/brands/logo-paypal.png">
+								</div>
+								<div class="col-5">
+									<img src="images-main/brands/logo-philips.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!------------------------------------------footer------------------------------------------>
+						<div class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="footer-col-3">
+									<h3>Follow Us</h3>
+									<p>Theo dõi chúng tôi qua</p>
+										<ul class="socials">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+											<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+										</ul>
+								</div>
+							</div>
+							<hr>
+							<p class= "copyright">Copyright 2021 - Ha Minh Duc</p>
+						</div>
+					</div>
+					<div class=""></div>
+					<!------------------------------------------js for toggle menu------------------------------------------>
+					<script>
+						var MenuItems = document.getElementById("MenuItems");
+						MenuItems.style.maxHeight = "0px";
+						function menutoggle()
+						{
+							if(MenuItems.style.maxHeight == "0px")
+							{
+								MenuItems.style.maxHeight = "200px";
+							}else
+							{
+								MenuItems.style.maxHeight = "0px";
+							}
+						}
+
+					</script>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<!--size for monile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hello World | Just Testing ! </title>
+	<link rel="stylesheet" href="style123.css"><!--href="style.css" //add file style.css-->
+	<!--Font-->
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	<!--Font for Star(Rate)-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style ="background-color: powderblue">
+	<!--header-->
+	<div class = "header">
+		<!--container-->
+		<div class="container">
+			<!--image logo-->
+			<div class="navbar">
+				<div class="logo">
+					<img src="images/logo.png" width ="125px"> <!-- kick thuoc image -->
+				</div>
+				<!--Button-->
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="">Home</a></li>
+						<li><a href="">Products</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Account</a></li>
+					</ul>
+				</nav>
+				<!--logo Cart-->
+				<img src="images/cart.png" width="35px" height="35px">
+				<!--logo Menu-->
+
+				<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+					<!--Row-->
+					<div class="row">
+						<!--col-2-->
+						<div class="col-2">
+							<h1>Xin Chao !!!<br></h1> <!--This is have Text(Title)-->
+							<p>
+								write somthing ! <br> hey bruhh :)
+							</p>
+							<!--btn-->
+							<a href="" class="btn">Explore Now &#10154;</a>
+						</div>
+						<!--col-2-->
+						<div class="col-2">
+							<img src="images/image1.png">
+						</div>
+					</div>
+		</div>
+	</div>
+							<!--------------Image Preview(Featured Categories-Ngành nghề đặc trưng)-------------->
+			<!--categories-->
+			<div class ="categories">
+				<!--small-container-->
+				<div class="small-container">
+					<div class="row">
+						<!--Image Preview-->
+						<div class="col-3">
+							<img src="images/category-1.jpg">
+						</div>
+						<div class="col-3">
+							<img src="images/category-2.jpg">
+						</div>
+						<div class="col-3">
+							<img src="images/category-3.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+							<!--------------Image San Pham(Featured Products-Sản phẩm nổi bật)-------------->
+			<!--small-container-->
+			<div class="small-container">
+				<!--Featured Products-->
+				<h2 class="title">Featured Products</h2>
+					<!--Begin Row-->
+					<div class="row">
+						<!--Begin Products-->
+						<!--Image1-->
+						<div class="col-4">
+							<img src="images/product-1.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image2-->
+						<div class="col-4">
+							<img src="images/product-2.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image3-->
+						<div class="col-4">
+							<img src="images/product-3.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i> <!--Star O-->
+								</div>
+							<!--Price Products-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image4-->
+						<div class="col-4">
+							<img src="images/product-4.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+						<!--End Product-->
+					</div>
+					<!--End Row-->
+
+					<!------------------------------------------Latest Products------------------------------------------>
+					<h2 class="title">Latest Products</h2>
+				<!--Begin Row2-->
+				<div class="row">
+					<!--Begin Product2-->
+						<!--Image5-->
+						<div class="col-4">
+							<img src="images/product-5.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image6-->
+						<div class="col-4">
+							<img src="images/product-6.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image7-->
+						<div class="col-4">
+							<img src="images/product-7.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image8-->
+						<div class="col-4">
+							<img src="images/product-8.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						<!--End Products2-->
+					</div>
+					<!--End Row2-->
+					<!-------------------------------------------------------------------------------------------------------------------->
+					<!--Begin Row3-->
+				<div class="row">
+					<!--Begin Product3-->
+						<!--Image9-->
+						<div class="col-4">
+							<img src="images/product-9.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image10-->
+						<div class="col-4">
+							<img src="images/product-10.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image11-->
+						<div class="col-4">
+							<img src="images/product-11.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image12-->
+						<div class="col-4">
+							<img src="images/product-12.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						<!--End Products3-->
+					</div>
+					<!--End Row3-->
+			</div>
+			<!--End Header-->
+					<!------------------------------------------Offer(Phục Vụ)------------------------------------------>
+			<div class="offer">
+				<div class="small-container">
+					<div class="row">
+						<!--Image MiBand-->
+						<div class="col-2">
+							<img src="images/exclusive.png" class="offer-img">
+						</div>
+						<!--Thong tin sp-->
+						<div class="col-2">
+							<p>SP TOT VC luon !</p> <!--tinh nang high ligh-->
+							<h1>Smart MiBand 4</h1> <!--Ten sp-->
+							<!--Small-->
+							<small>
+								Cai miband 4 nay rat chi la tuyet cmn voi nuon day, toi da su dung dung san pham nay va no rat la good ! <br><!--gioi thieu nhanh sp-->
+							</small>
+								<!--Button Buy-->
+								<a href="" class="btn">Buy Now &#8594;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+					<!------------------------------------------brands------------------------------------------>
+					<div class="brands">
+						<div class="small-container">
+							<div class="row">
+								<div class="col-5">
+									<img src="images/logo-godrej.png">
+								</div>
+								<div class="col-5">
+									<img src="images/logo-oppo.png">
+								</div>
+								<div class="col-5">
+									<img src="images/logo-coca-cola.png">
+								</div>
+								<div class="col-5">
+									<img src="images/logo-paypal.png">
+								</div>
+								<div class="col-5">
+									<img src="images/logo-philips.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!------------------------------------------footer------------------------------------------>
+						<div class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="footer-col-3">
+									<h3>Hello</h3>
+									<p>say something i dont know ?</p>
+										<ul class="socials">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+											<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+										</ul>
+								</div>
+							</div>
+							<hr>
+							<p class= "copyright">Copyright 2021 - Ha Minh Duc</p>
+						</div>
+					</div>
+					<div class=""></div>
+					<!------------------------------------------js for toggle menu------------------------------------------>
+					<script>
+						var MenuItems = document.getElementById("MenuItems");
+						MenuItems.style.maxHeight = "0px";
+						function menutoggle()
+						{
+							if(MenuItems.style.maxHeight == "0px")
+							{
+								MenuItems.style.maxHeight = "200px";
+							}else
+							{
+								MenuItems.style.maxHeight = "0px";
+							}
+						}
+
+					</script>
+</html>

@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*chinh body ben index.html*/
+body
+{
+	font-family: 'Overpass', sans-serif;
+}
+/*chinh navbar ben index.html*/
+.navbar
+{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+/*	di chuyen text qua phai */
+nav 
+{
+	flex: 1;
+	text-align: right;
+}
+nav ul /*chinh nav ul ben index.html*/
+{
+	display: inline-block;
+	list-style-type: none; 
+}
+nav li /*chinh nav li ben index.html | Chinh text ngang*/
+{
+	display: inline-block;
+	margin-right: 20px; /*can khoang cach cho text*/
+}
+a
+{
+	/*[text-decoration]
+	none : hủy kẻ qua chữ
+	underline: gạch chân
+	overline: gạch trên đầu chữ
+	line-through: gạch qua chữ*/
+	text-decoration: underline; 
+	color #555;
+}
+p
+{
+	color #555;
+}
+/*chinh container ben index.html*/
+.container
+{
+	max-width: 1300px;
+	margin: auto;
+	padding-left:25px; 
+	padding-right:25px;
+}
+/*chinh row ben index.html*/
+.row
+{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+/*chinh col-2 ben index.html*/
+.col-2
+{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+/*chinh col-2 img ben index.html*/
+.col-2 img
+{
+	max-width: 100%;
+	padding: 50px 0;
+}
+/*chinh col-2 h1 ben index.html*/
+.col-2 h1
+{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+/*chinh btn ben index.html*/
+.btn
+{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	/*chinh btnkhi di chuoy doi mau*/
+	transition: background 0.5s; /*thoi gian refest color*/
+}
+/*chinh btnkhi di chuoy doi mau*/
+.btn:hover
+{
+	background: #563434; /*color button when click*/
+}
+/*chinh header ben index.html*/
+.header
+{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+/*chinh header row ben index.html*/
+.herder .row
+{
+	margin-top: 70px;
+}
+/*chinh categories ben index.html*/
+.categories
+{
+	margin: 70px 0;
+}
+/*chinh col-3 ben index.html*/
+.col-3
+{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+}
+/*chinh col-3 img ben index.html*/
+.col-3 img
+{
+	width: 100%;
+}
+/*chinh small-container ben index.html*/
+.small-container
+{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+/*chinh col-4 ben index.html*/
+.col-4
+{
+	flex-basis: 25%;
+	padding:10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	/*hoat anh khi tro chuot anh di chuyen(.col-4:hover)*/
+	transition: transform 0.5s;
+}
+/*chinh col-4 img ben index.html*/
+.col-4 img
+{
+	width: 230px;
+}
+/*chinh title ben index.html
+-Chinh text "Featured Products" ra giua
+*/
+.title
+{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+}
+
+/*chinh title::after; ben index.html*/
+/* Gạch đỏ dưới Featured Products*/
+.title::after
+{
+	content: '';
+	background: #ff523b;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+/*chinh text cua san pham (h4 & .col-4 p)*/
+/*chinh h4 ben index.html*/
+h4
+{
+	color: #555;
+	font-weight: normal;
+}
+/*chinh .col-4 p ben index.html*/
+.col-4 p
+{
+	font-size: 14px; 
+}
+/*chinh rating ben index.html*/
+.rating .fa
+{
+	color: #ff523b; /*color of star*/
+}
+/*chinh .col-4:hover ben index.html*/
+/*hoat anh khi tro chuot anh di chuyen*/
+.col-4:hover
+{
+	transform: translateY(-5px);
+}
+/*chinh offer ben index.html*/
+/* doi mau backgroud san pham*/
+.offer
+{
+	background: radial-gradient(#fff,#ffd6d6);
+	margin-top: 80px;
+	padding: 30px;
+}
+/*chinh col-2 offer img ben index.html*/
+.col-2 .offer-img
+{
+	padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

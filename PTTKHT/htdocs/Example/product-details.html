@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<!--size for monile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All Product - Hello World | Just Testing ! </title>
+	<link rel="stylesheet" href="style21.css"><!--href="style.css" //add file style.css-->
+	<!--Font-->
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	<!--Font for Star(Rate)-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style ="background-color: powderblue">
+	<!--header-->
+		<!--container-->
+		<div class="container">
+			<!--image logo-->
+			<div class="navbar">
+				<div class="logo">
+					<img src="images/logo.png" width ="125px"> <!-- kick thuoc image -->
+				</div>
+				<!--Button-->
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="">Home</a></li>
+						<li><a href="">Products</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Account</a></li>
+					</ul>
+				</nav>
+				<!--logo Cart-->
+				<img src="images/cart.png" width="35px" height="35px">
+				<!--logo Menu-->
+
+				<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+		</div>
+		<!--https://youtu.be/ENyk_W-Eleo \n đã bỏ đoạn thêm nhiều ảnh mẫu-->
+							<!--------------Single Product details-------------->
+			<div class="small-container single-product">
+				<div class="row">
+					<div class="col-2">
+						<img src="images/gallery-1.jpg" width="100%">
+					</div>
+					<!--info-->
+					<div class="col-2">
+						<p>Home / T-shirt</p>
+						<h1>Ao mau do by ha duc 25</h1>
+						<h4>$1234</h4>
+						<select>
+							<option>Select Size</option>
+							<option>XXL</option>
+							<option>XL</option>
+							<option>Large</option>
+							<option>Medium</option>
+							<option>Small</option>
+						</select>
+						<input type="number" value="1">
+						<a href="" class="btn">Add to Cart</a>
+						<!---details-->
+						<h3>Product Details <i class="fa fa-indent"></i></h3>
+						<br>
+						<p>This product so cute</p>
+					</div>
+				</div>
+			</div>
+							<!--------------title-------------->
+			<div class="small-container">
+				<div class="row row-2">
+					<h2>Related Products</h2>
+					<p>View More</p>
+				</div>
+			</div>
+							<!--------------Image San Pham(Featured Products-Sản phẩm nổi bật)-------------->
+			<!--small-container-->
+			<div class="small-container">
+					<!--Begin Row3-->
+				<div class="row">
+					<!--Begin Product3-->
+						<!--Image9-->
+						<div class="col-4">
+							<img src="images/product-9.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image10-->
+						<div class="col-4">
+							<img src="images/product-10.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image11-->
+						<div class="col-4">
+							<img src="images/product-11.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						</div>
+
+						<!--Image12-->
+						<div class="col-4">
+							<img src="images/product-12.jpg">
+							<!--Name Product-->
+							<h4>Red Printed T-Shirt</h4>
+								<!---rating
+								Link Icon Rating (https://fontawesome.com/v4.7.0/icon/star)-->
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+									<i class="fa fa-star-o"></i> <!--Star O-->
+								</div>
+							<!--Price Product-->
+							<p>$50.00</p>
+						<!--End Products3-->
+					</div>
+					<!--End Row3-->
+			</div>
+			<!--End Header-->
+					<!------------------------------------------footer------------------------------------------>
+						<div class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="footer-col-3">
+									<h3>Hello</h3>
+									<p>say something i dont know ?</p>
+										<ul class="socials">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+											<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+										</ul>
+								</div>
+							</div>
+							<hr>
+							<p class= "copyright">Copyright 2021 - Ha Minh Duc</p>
+						</div>
+					</div>
+					<div class=""></div>
+					<!------------------------------------------js for toggle menu------------------------------------------>
+					<script>
+						var MenuItems = document.getElementById("MenuItems");
+						MenuItems.style.maxHeight = "0px";
+						function menutoggle()
+						{
+							if(MenuItems.style.maxHeight == "0px")
+							{
+								MenuItems.style.maxHeight = "200px";
+							}else
+							{
+								MenuItems.style.maxHeight = "0px";
+							}
+						}
+
+					</script>
+</html>
